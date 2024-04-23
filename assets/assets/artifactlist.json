@@ -440,6 +440,24 @@
             "imageurl": "images/artifact/15034.png",
             "spoiler": false,
             "order": 97
+        },
+        {
+            "id": "15035",
+            "ENname": "Fragment of Harmonic Whimsy",
+            "CNname": "谐律异想断章",
+            "JAname": "諧律奇想の断章",
+            "imageurl": "images/artifact/15035.webp",
+            "spoiler": false,
+            "order": 999
+        },
+        {
+            "id": "15036",
+            "ENname": "Unfinished Reverie",
+            "CNname": "未竟的遐思",
+            "JAname": "遂げられなかった想い",
+            "imageurl": "images/artifact/15036.webp",
+            "spoiler": false,
+            "order": 999
         }
     ]
 }
