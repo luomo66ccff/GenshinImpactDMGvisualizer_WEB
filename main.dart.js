@@ -102808,68 +102808,68 @@ q.push(A.u(A.a([k,l,a6.dd(B.c,m+(":("+A.i(n)+"%ATK + "+A.i(o)+"%DEF)"),A.a([p,i]
 o=A.b(b9)
 n=new A.f()
 n.j($.aB,b5)
-m=$.cM?2:1
+m=$.cM?100:0
 l=$.cT
 k=$.bk
 k=k>=30?k:0
 j=new A.f()
-j.j(m*l*k/100,b5)
+j.j((m+l)*k/100,b5)
 k=t.h
 l=t.f
 j=A.a([A.a([n,j],k),[],!1,1],l)
 n=new A.f()
 n.j($.aW,b5)
-m=$.cM?2:1
+m=$.cM?100:0
 i=$.cT
 h=$.bk
 h=h>=30?h-7.5:0
 g=new A.f()
-g.j(m*i*h/100,b5)
+g.j((m+i)*h/100,b5)
 g=A.a([A.a([n,g],k),[],!1,1],l)
 n=new A.f()
 n.j($.aO,b5)
-m=$.cM?2:1
+m=$.cM?100:0
 i=$.cT
 h=$.bk
 h=h>=30?h-15:0
 f=new A.f()
-f.j(m*i*h/100,b5)
+f.j((m+i)*h/100,b5)
 f=A.a([A.a([n,f],k),[],!1,1],l)
 n=new A.f()
 n.j($.aQ,b5)
-m=$.cM?2:1
+m=$.cM?100:0
 i=$.cT
 h=$.bk
 h=h>=30?h-22.5:0
 d=new A.f()
-d.j(m*i*h/100,b5)
+d.j((m+i)*h/100,b5)
 d=A.a([A.a([n,d],k),[],!1,1],l)
 n=new A.f()
 n.j($.aQ,b5)
-m=$.cM?2:1
+m=$.cM?100:0
 i=$.cT
 h=$.bk
 h=h>=30?h-30:0
 c=new A.f()
-c.j(m*i*h/100,b5)
+c.j((m+i)*h/100,b5)
 c=A.a([A.a([n,c],k),[],!1,1],l)
 n=new A.f()
 n.j($.bU,b5)
-m=$.cM?2:1
+m=$.cM?100:0
 i=$.cT
 h=$.bk
 h=h>=37.5?h-37.5:0
 b=new A.f()
-b.j(m*i*h/100,b5)
+b.j((m+i)*h/100,b5)
 b=A.a([A.a([n,b],k),[],!1,1],l)
 n=new A.f()
 n.j($.hX,b5)
-m=$.cM?2:1
+m=$.cM?100:0
 i=$.cT
 h=$.bk
 h=h>=45?h-45:0
 a=new A.f()
-a.j(m*i*h/100,b5)
+a.j((m+i)*h/100,b5)
 l=A.a([j,g,f,d,c,b,A.a([A.a([n,a],k),[],!1,1],l)],t.Q)
 n=$.bk>=30?c0:c4
 m=$.fA
@@ -105698,36 +105698,36 @@ q=A.q(a6,A.d(A.b(a8),a6,a6,a6,a6,a6,a6,a6,A.j(a6,a6,B.c,a6,a6,a6,a6,a6,a6,a6,a6,
 d9=a5.a
 p=new A.f()
 p.j($.aB,a9)
-o=$.cM?2:1
+o=$.cM?100:0
 n=new A.f()
-n.j(o*$.cT*$.bk/100,a9)
+n.j((o+$.cT)*$.bk/100,a9)
 o=t.h
 n=d9.l3(A.a([p,n],o),[],b5,b6)
 p=new A.f()
 p.j($.aB,a9)
-m=$.cM?2:1
+m=$.cM?100:0
 l=new A.f()
-l.j(m*$.cT*$.bk/100,a9)
+l.j((m+$.cT)*$.bk/100,a9)
 l=d9.l4(A.a([p,l],o),[],b5,b6)
 p=new A.f()
 p.j($.aB,a9)
-m=$.cM?2:1
+m=$.cM?100:0
 k=new A.f()
-k.j(m*$.cT*$.bk/100,a9)
+k.j((m+$.cT)*$.bk/100,a9)
 k=d9.l5(A.a([p,k],o),[],b5,b6)
 p=new A.f()
 p.j($.aB,a9)
-m=$.cM?2:1
+m=$.cM?100:0
 j=new A.f()
-j.j(m*$.cT*$.bk/100,a9)
+j.j((m+$.cT)*$.bk/100,a9)
 j=d9.l6(A.a([p,j],o),[],b5,b6)
 p=d9.d
 p=A.q(a6,A.r(A.a([A.d(A.b(b2)+"+10%",a6,a6,a6,a6,a6,a6,a6,A.j(a6,a6,B.c,a6,a6,a6,a6,a6,a6,a6,a6,15,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,a6),a6,a6,a6,a6),A.e(a6,a6,10),A.d(A.b(b3)+"+"+B.b.l(d9.bM(p.al(B.c9)-10)/d9.bM(p.al(B.by))*100-100,1)+"%",a6,a6,a6,a6,a6,a6,a6,A.j(a6,a6,B.c,a6,a6,a6,a6,a6,a6,a6,a6,15,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,a6),a6,a6,a6,a6)],d7),B.e,B.h,B.d),B.k,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6)
 m=new A.f()
 m.j($.aB,a9)
-i=$.cM?2:1
+i=$.cM?100:0
 h=new A.f()
-h.j(i*$.cT*$.bk/100,a9)
+h.j((i+$.cT)*$.bk/100,a9)
 o=A.a([m,h],o)
 m=$.aq*0.1
 d8.push(A.bq(A.dS(A.q(a6,A.u(A.a([s,r,q,n,l,k,j,p,d9.IV(o,A.a([m>100?100:m],t.a0),b5,b6)],d7),B.e,B.aT,B.d),B.k,a6,a6,a6,a6,500,a6,a6,a6,a6,a6,560),new A.aSB(e0)),B.D))}d9=$.m
@@ -110376,68 +110376,68 @@ r=A.b(d5)
 q=A.b(d6)
 p=new A.f()
 p.j($.aB,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 n=$.cT
 m=$.bk
 m=m>=30?m:0
 l=new A.f()
-l.j(o*n*m/100,b5)
+l.j((o+n)*m/100,b5)
 m=t.h
 n=t.f
 l=A.a([A.a([p,l],m),[],!1,1],n)
 p=new A.f()
 p.j($.aW,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 k=$.cT
 j=$.bk
 j=j>=30?j-7.5:0
 i=new A.f()
-i.j(o*k*j/100,b5)
+i.j((o+k)*j/100,b5)
 i=A.a([A.a([p,i],m),[],!1,1],n)
 p=new A.f()
 p.j($.aO,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 k=$.cT
 j=$.bk
 j=j>=30?j-15:0
 h=new A.f()
-h.j(o*k*j/100,b5)
+h.j((o+k)*j/100,b5)
 h=A.a([A.a([p,h],m),[],!1,1],n)
 p=new A.f()
 p.j($.aQ,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 k=$.cT
 j=$.bk
 j=j>=30?j-22.5:0
 g=new A.f()
-g.j(o*k*j/100,b5)
+g.j((o+k)*j/100,b5)
 g=A.a([A.a([p,g],m),[],!1,1],n)
 p=new A.f()
 p.j($.aQ,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 k=$.cT
 j=$.bk
 j=j>=30?j-30:0
 f=new A.f()
-f.j(o*k*j/100,b5)
+f.j((o+k)*j/100,b5)
 f=A.a([A.a([p,f],m),[],!1,1],n)
 p=new A.f()
 p.j($.bU,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 k=$.cT
 j=$.bk
 j=j>=37.5?j-37.5:0
 e=new A.f()
-e.j(o*k*j/100,b5)
+e.j((o+k)*j/100,b5)
 e=A.a([A.a([p,e],m),[],!1,1],n)
 p=new A.f()
 p.j($.hX,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 k=$.cT
 j=$.bk
 j=j>=45?j-45:0
 d=new A.f()
-d.j(o*k*j/100,b5)
+d.j((o+k)*j/100,b5)
 j=t.Q
 d=A.a([l,i,h,g,f,e,A.a([A.a([p,d],m),[],!1,1],n)],j)
 p=$.bk>=30?d3:c1
@@ -110450,66 +110450,66 @@ p=A.b(d7)
 d=A.b(d6)
 q=new A.f()
 q.j($.aB,b5)
-r=$.cM?2:1
+r=$.cM?100:0
 k=$.cT
 i=$.bk
 i=i>=30?i:0
 h=new A.f()
-h.j(r*k*i/100,b5)
+h.j((r+k)*i/100,b5)
 h=A.a([A.a([q,h],m),[],!1,1.5*$.a7/100],n)
 q=new A.f()
 q.j($.aW,b5)
-r=$.cM?2:1
+r=$.cM?100:0
 k=$.cT
 i=$.bk
 i=i>=30?i-7.5:0
 g=new A.f()
-g.j(r*k*i/100,b5)
+g.j((r+k)*i/100,b5)
 g=A.a([A.a([q,g],m),[],!1,1],n)
 q=new A.f()
 q.j($.aO,b5)
-r=$.cM?2:1
+r=$.cM?100:0
 k=$.cT
 i=$.bk
 i=i>=30?i-15:0
 f=new A.f()
-f.j(r*k*i/100,b5)
+f.j((r+k)*i/100,b5)
 f=A.a([A.a([q,f],m),[],!1,1],n)
 q=new A.f()
 q.j($.aQ,b5)
-r=$.cM?2:1
+r=$.cM?100:0
 k=$.cT
 i=$.bk
 i=i>=30?i-22.5:0
 e=new A.f()
-e.j(r*k*i/100,b5)
+e.j((r+k)*i/100,b5)
 e=A.a([A.a([q,e],m),[],!1,1.5*$.a7/100],n)
 q=new A.f()
 q.j($.aQ,b5)
-r=$.cM?2:1
+r=$.cM?100:0
 k=$.cT
 i=$.bk
 i=i>=30?i-30:0
 c=new A.f()
-c.j(r*k*i/100,b5)
+c.j((r+k)*i/100,b5)
 c=A.a([A.a([q,c],m),[],!1,1],n)
 q=new A.f()
 q.j($.bU,b5)
-r=$.cM?2:1
+r=$.cM?100:0
 k=$.cT
 i=$.bk
 i=i>=37.5?i-37.5:0
 b=new A.f()
-b.j(r*k*i/100,b5)
+b.j((r+k)*i/100,b5)
 b=A.a([A.a([q,b],m),[],!1,1],n)
 q=new A.f()
 q.j($.hX,b5)
-r=$.cM?2:1
+r=$.cM?100:0
 k=$.cT
 i=$.bk
 i=i>=45?i-45:0
 a=new A.f()
-a.j(r*k*i/100,b5)
+a.j((r+k)*i/100,b5)
 a=A.a([h,g,f,e,c,b,A.a([A.a([q,a],m),[],!1,1],n)],j)
 r=$.bk>=30?d3:c1
 q=$.fA
@@ -110521,48 +110521,48 @@ r=A.b(d5)
 a=A.b(d6)
 d=new A.f()
 d.j($.aB,b5)
-p=$.cM?2:1
+p=$.cM?100:0
 o=$.cT
 i=$.bk
 i=i>=30?i:0
 h=new A.f()
-h.j(p*o*i/100,b5)
+h.j((p+o)*i/100,b5)
 h=A.a([A.a([d,h],m),[],!1,1],n)
 d=new A.f()
 d.j($.aW,b5)
-p=$.cM?2:1
+p=$.cM?100:0
 o=$.cT
 i=$.bk
 i=i>=30?i-7.5:0
 g=new A.f()
-g.j(p*o*i/100,b5)
+g.j((p+o)*i/100,b5)
 g=A.a([A.a([d,g],m),[],!1,1],n)
 d=new A.f()
 d.j($.aO,b5)
-p=$.cM?2:1
+p=$.cM?100:0
 o=$.cT
 i=$.bk
 i=i>=30?i-15:0
 f=new A.f()
-f.j(p*o*i/100,b5)
+f.j((p+o)*i/100,b5)
 f=A.a([A.a([d,f],m),[],!1,1],n)
 d=new A.f()
 d.j($.aQ,b5)
-p=$.cM?2:1
+p=$.cM?100:0
 o=$.cT
 i=$.bk
 i=i>=30?i-22.5:0
 e=new A.f()
-e.j(p*o*i/100,b5)
+e.j((p+o)*i/100,b5)
 e=A.a([A.a([d,e],m),[],!1,1],n)
 d=new A.f()
 d.j($.aQ,b5)
-p=$.cM?2:1
+p=$.cM?100:0
 o=$.cT
 i=$.bk
 i=i>=30?i-30:0
 c=new A.f()
-c.j(p*o*i/100,b5)
+c.j((p+o)*i/100,b5)
 c=A.a([h,g,f,e,A.a([A.a([d,c],m),[],!1,1],n)],j)
 p=$.bk>=30?d3:c1
 o=$.fA
@@ -110575,48 +110575,48 @@ c=A.b(d7)
 a=A.b(d6)
 r=new A.f()
 r.j($.aB,b5)
-h=$.cM?2:1
+h=$.cM?100:0
 g=$.cT
 f=$.bk
 f=f>=30?f:0
 e=new A.f()
-e.j(h*g*f/100,b5)
+e.j((h+g)*f/100,b5)
 e=A.a([A.a([r,e],m),[],!1,1.5*$.a7/100],n)
 r=new A.f()
 r.j($.aW,b5)
-h=$.cM?2:1
+h=$.cM?100:0
 g=$.cT
 f=$.bk
 f=f>=30?f-7.5:0
 d=new A.f()
-d.j(h*g*f/100,b5)
+d.j((h+g)*f/100,b5)
 d=A.a([A.a([r,d],m),[],!1,1],n)
 r=new A.f()
 r.j($.aO,b5)
-h=$.cM?2:1
+h=$.cM?100:0
 g=$.cT
 f=$.bk
 f=f>=30?f-15:0
 b=new A.f()
-b.j(h*g*f/100,b5)
+b.j((h+g)*f/100,b5)
 b=A.a([A.a([r,b],m),[],!1,1],n)
 r=new A.f()
 r.j($.aQ,b5)
-h=$.cM?2:1
+h=$.cM?100:0
 g=$.cT
 f=$.bk
 f=f>=30?f-22.5:0
 a0=new A.f()
-a0.j(h*g*f/100,b5)
+a0.j((h+g)*f/100,b5)
 a0=A.a([A.a([r,a0],m),[],!1,1.5*$.a7/100],n)
 r=new A.f()
 r.j($.aQ,b5)
-h=$.cM?2:1
+h=$.cM?100:0
 g=$.cT
 f=$.bk
 f=f>=30?f-30:0
 a1=new A.f()
-a1.j(h*g*f/100,b5)
+a1.j((h+g)*f/100,b5)
 j=A.a([e,d,b,a0,A.a([A.a([r,a1],m),[],!1,1],n)],j)
 r=$.bk>=30?d3:c1
 n=$.fA
@@ -110628,12 +110628,12 @@ r=A.b(c0)
 j=$.aB
 a=new A.f()
 a.j(j,b5)
-p=$.cM?2:1
+p=$.cM?100:0
 g=$.cT
 f=$.bk
 f=f>=30?f:0
 e=new A.f()
-e.j(p*g*f/100,b5)
+e.j((p+g)*f/100,b5)
 e=A.a([a,e],m)
 p=$.bk>=30?d3:c1
 g=$.fA
@@ -110644,12 +110644,12 @@ if($.bk>=30){r=A.b(d7)
 q=B.b.i(A.R(B.b.l($.a7*1.5,1)))
 p=new A.f()
 p.j($.aB,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 n=$.cT
 k=$.bk
 k=k>=30?k:0
 j=new A.f()
-j.j(o*n*k/100,b5)
+j.j((o+n)*k/100,b5)
 j=A.a([p,j],m)
 p=$.a7
 o=$.fA
@@ -110660,12 +110660,12 @@ r=A.b(c3)
 q=$.aW
 p=new A.f()
 p.j(q,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 n=$.cT
 k=$.bk
 k=k>=30?k-7.5:0
 j=new A.f()
-j.j(o*n*k/100,b5)
+j.j((o+n)*k/100,b5)
 j=A.a([p,j],m)
 p=$.bk>=30?d3:c1
 o=$.fA
@@ -110677,12 +110677,12 @@ n=A.b(c4)
 o=$.aO
 p=new A.f()
 p.j(o,b5)
-r=$.cM?2:1
+r=$.cM?100:0
 q=$.cT
 k=$.bk
 k=k>=30?k-15:0
 j=new A.f()
-j.j(r*q*k/100,b5)
+j.j((r+q)*k/100,b5)
 j=A.a([p,j],m)
 r=$.bk>=30?d3:c1
 q=$.fA
@@ -110694,12 +110694,12 @@ p=A.b(c5)
 q=$.aQ
 r=new A.f()
 r.j(q,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 n=$.cT
 k=$.bk
 k=k>=30?k-22.5:0
 j=new A.f()
-j.j(o*n*k/100,b5)
+j.j((o+n)*k/100,b5)
 j=A.a([r,j],m)
 r=$.bk>=30?d3:c1
 o=$.fA
@@ -110710,12 +110710,12 @@ if($.bk>=30){r=A.b(d7)
 q=B.b.i(A.R(B.b.l($.a7*1.5,1)))
 p=new A.f()
 p.j($.aQ,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 n=$.cT
 k=$.bk
 k=k>=30?k:0
 j=new A.f()
-j.j(o*n*k/100,b5)
+j.j((o+n)*k/100,b5)
 j=A.a([p,j],m)
 p=$.a7
 o=$.fA
@@ -110726,12 +110726,12 @@ r=A.b(c6)
 q=$.bU
 p=new A.f()
 p.j(q,b5)
-o=$.cM?2:1
+o=$.cM?100:0
 n=$.cT
 k=$.bk
 k=k>=37.5?k-37.5:0
 j=new A.f()
-j.j(o*n*k/100,b5)
+j.j((o+n)*k/100,b5)
 j=A.a([p,j],m)
 p=$.bk>=30?d3:c1
 o=$.fA
@@ -110743,12 +110743,12 @@ n=A.b(c7)
 o=$.hX
 p=new A.f()
 p.j(o,b5)
-r=$.cM?2:1
+r=$.cM?100:0
 q=$.cT
 k=$.bk
 k=k>=45?k-45:0
 j=new A.f()
-j.j(r*q*k/100,b5)
+j.j((r+q)*k/100,b5)
 j=A.a([p,j],m)
 r=$.bk>=30?d3:c1
 q=$.fA
