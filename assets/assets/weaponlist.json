@@ -505,6 +505,18 @@
             "order": 999
         },
         {
+            "id": "11515",
+            "ENname": "Absolution",
+            "CNname": "赦罪",
+            "JAname": "赦罪",
+            "imageurl": "images/weapon/11515.webp",
+            "rarity": 5,
+            "type": "sword",
+            "spoiler": false,
+            "supported": false,
+            "order": 999
+        },
+        {
             "id": "12101",
             "ENname": "Waster Greatsword",
             "CNname": "训练大剑",
@@ -2077,6 +2089,18 @@
             "order": 999
         },
         {
+            "id": "15426",
+            "ENname": "Cloudforged",
+            "CNname": "筑云",
+            "JAname": "築雲",
+            "imageurl": "images/weapon/15426.webp",
+            "rarity": 4,
+            "type": "bow",
+            "spoiler": false,
+            "supported": false,
+            "order": 999
+        },
+        {
             "id": "15427",
             "ENname": "Range Gauge",
             "CNname": "测距规",
@@ -2178,6 +2202,18 @@
             "CNname": "最初的大魔术",
             "JAname": "始まりの大魔術",
             "imageurl": "images/weapon/15512.webp",
+            "rarity": 5,
+            "type": "bow",
+            "spoiler": false,
+            "supported": false,
+            "order": 999
+        },
+        {
+            "id": "15513",
+            "ENname": "Silvershower Heartstrings",
+            "CNname": "白雨心弦",
+            "JAname": "白雨心弦",
+            "imageurl": "images/weapon/15513.webp",
             "rarity": 5,
             "type": "bow",
             "spoiler": false,
